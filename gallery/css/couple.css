@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: #666;
+  margin: 0;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+#lvhp{
+    margin-left: 17%;
+}
+#ofmusic{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    bottom: 40px;
+    border-top:3px solid white; 
+    border-right:3px solid white; 
+    border-bottom:4px solid white;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(148,37,37,0.5);
+    z-index: 10000;
+    
+}
+#musicbuton{
+    width: 20px;
+    height: 40px;
+    border-radius:20px;
+    background: rgba(91,218,77,0.7);
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#active{
+    top:7px;
+    left: 10px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(255,255,255,1);
+    transition: 0.3s ease;
+}
+#pp-nav span,.pp-slidesNav span {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    border: none;
+}
+#menu li{
+    border-radius: 12px;
+    background-color: rgba(148,37,37,0.8);
+    border: 3px solid white;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+}
+#menu li a{
+    color: white;
+}
+#color{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: firebrick;
+    opacity: 0.4;
+}
+a {
+  color: #0099CC;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: #006699;
+  color: #0099CC;
+  text-decoration: none;
+  outline: none;
+}
+
+a:visited, a:visited:hover {
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: 'FiolexGirl';
+    src: url('../fonts/FiolexGirlVH.ttf');
+}
+
+.male,.female {
+  color: white;
+  font-family: 'FiolexGirl';
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size:30px;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 10px;
+  font-weight: 300;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+ 
+
+}
+.photo{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.couple {
+  width: 100%;
+  position: relative;
+  
+}
+
+.couple-block {
+  position: relative;
+  width: 48%;
+  background-color: firebrick;
+  border-radius: 15px;
+}
+.couple-block:hover, .bottom-block:hover{
+  position: relative;
+  width: 48%;
+  background:url('../img/heart_falling.gif');
+  color:white;
+  
+}
+.couple-block.first-block {
+  float: left;
+  margin-right: 2%;
+  box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+}
+
+.couple-block.second-block {
+  box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+  float: right;
+}
+
+.couple-block .top-block {
+  padding: 20px;
+  min-height: 130px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.couple-block .name {
+  text-align: center;
+  padding-right: 140px;
+}
+
+.couple-block.second-block .name {
+  text-align: center;
+  padding-right: 0;
+  padding-left: 140px;
+}
+
+.couple-block .name h2 {
+  font-size: 36px;
+  line-height: 1em;
+  color: white;
+  margin-top: 15px;
+font-size: 50px;
+}
+
+.couple-block .name p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1em;
+  color: #f1f1f1;
+  margin: 0;
+  font-family: 'Calibri',sans-serif;
+}
+
+.couple-block .photo {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.couple-block.second-block .photo {
+  right: auto;
+  left: 20px;
+}
+
+.couple-block .photo img {
+  border-radius: 50%;
+}
+.couple-block .bottom-block {
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+
+.couple-block .bottom-block p {
+  margin: 0;
+}
+
+.couple .heart {
+  position: absolute;
+  right: 0;
+  left: 50%;
+  top: 50%;
+  margin-top: 100px;
+  margin-left: -50px;
+  width: 100px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  z-index: 2;
+}
+
+.couple:hover .heart {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+ul.social-links {
+    display: inline-block;
+    list-style: none;
+    margin: 8px auto 0;
+    padding: 0;
+}
+
+ul.social-links li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-links li a {
+  color:orange;
+  font-size: 13px;
+  margin: 0 4px;
+}
+
+ul.social-links li a:hover {
+  color: #e65959;
+}
+
+ul.social-links li a i {
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+ul.social-links li a:hover i {
+  color: #e65959;
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+#center{
+    position: absolute;
+    height: 5px;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 520px;
+    background: rgba(255,255,255,0.8);
+    
+}
+#TextCounter{
+    top:540px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%);
+    
+}
+#click{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top:600px;
+    color: white;
+    font-family: "Calibri",sans-serif;
+    opacity: 0.5;
+}
+#muiten{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 570px;
+}

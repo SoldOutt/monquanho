@@ -1,0 +1,324 @@
+/**************APP****************/
+.msg_box_but{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#msg_box_title{
+    width: 480px;
+    top: 196px;
+    left: 158px;
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #062978;
+    text-shadow: 2px 0 0 #b7e0e5, -2px 0 0 #b7e0e5, 0 2px 0 #b7e0e5, 0 -2px 0 #b7e0e5, 2px 2px #b7e0e5, -2px -2px 0 #b7e0e5, 2px -2px 0 #b7e0e5, -2px 2px 0 #b7e0e5;
+    font-family: 'walibi0615bold';
+}
+
+#msg_box_text{
+    width: 480px;
+    top: 270px;
+    left: 158px;
+    
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #062978;
+    text-shadow: 2px 0 0 #b7e0e5, -2px 0 0 #b7e0e5, 0 2px 0 #b7e0e5, 0 -2px 0 #b7e0e5, 2px 2px #b7e0e5, -2px -2px 0 #b7e0e5, 2px -2px 0 #b7e0e5, -2px 2px 0 #b7e0e5;
+    font-family: 'walibi0615bold';
+}
+
+#msg_box_button1{
+    width: 230px;
+    top: 400px;
+    left: 178px;
+}
+
+#msg_box_button2{
+    width: 230px;
+    top: 400px;
+    left: 268px;
+}
+
+#msg_box_button3{
+    width: 230px;
+    top: 400px;
+    left: 400px;
+}
+/**************MENU****************/
+
+.menu_button{
+    font-size: 56px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#button_menu_play{
+    top:450px; 
+    right:10px;
+}
+
+#button_menu_help{
+    top:510px; 
+    right:10px;
+}
+
+.layout_lock{
+     width: 46px;
+     height: 67px;
+     top: 56px;
+     left: 66px; 
+     display: none;
+}
+
+#arrow_button_left{
+    width: 69px;
+    height: 75px;
+    top: 424px;
+    left: 5px;
+}
+
+#arrow_button_right{
+    width: 69px;
+    height: 75px;
+    top: 424px;
+    left: 726px;
+}
+
+.mahjong_layout h1{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+.mahjong_layout h2{
+    top: 150px;
+    left: -50px; 
+    width: 284px;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+.mahjong_layout h3{
+    top: 14px;
+    left: 90px; 
+    width: 140px;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #062978;
+    text-shadow: 2px 0 0 #b7e0e5, -2px 0 0 #b7e0e5, 0 2px 0 #b7e0e5, 0 -2px 0 #b7e0e5, 2px 2px #b7e0e5, -2px -2px 0 #b7e0e5, 2px -2px 0 #b7e0e5, -2px 2px 0 #b7e0e5;
+    font-family: 'walibi0615bold';
+}
+
+
+/**************HELP****************/
+
+#help_text1{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    
+     font-family: 'walibi0615bold';
+}
+
+#help_text2{
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    
+     font-family: 'walibi0615bold';
+}
+
+#help_button_exit{
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    
+     font-family: 'walibi0615bold';
+}
+
+/**************GAME****************/
+.game_button{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#button_exit{
+    width: 24px;
+    height: 32px;
+    top: 2px;
+    left: 768px;
+}
+
+.game_text{
+    color: #b7e0e5;
+    text-shadow: 3px 0 0 #062978, -3px 0 0 #062978, 0 3px 0 #062978, 0 -3px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    
+     font-family: 'walibi0615bold';
+}
+
+
+/********INTERFACE**********/
+
+.bonus_score_anim{
+    width: 800px;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #062978;
+    text-shadow: 2px 0 0 #b7e0e5, -2px 0 0 #b7e0e5, 0 2px 0 #b7e0e5, 0 -2px 0 #b7e0e5, 2px 2px #b7e0e5, -2px -2px 0 #b7e0e5, 2px -2px 0 #b7e0e5, -2px 2px 0 #b7e0e5;
+    font-family: 'walibi0615bold';
+}
+
+#text_score{
+    width: 175px;
+    
+    text-align: left;
+    font-size: 17px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#bonus_time{
+    width: 220px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 17px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#hint_text{
+    width: 320px;
+    
+    text-align: right;
+    font-size: 17px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#win_title{
+    width: 480px;
+    margin-top: 18px;
+    margin-left: 8px;
+    
+    text-align: center;
+    font-size: 36px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#win_final_score{
+    width: 480px;
+    
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+
+    font-family: 'walibi0615bold';
+}
+
+#win_but_exit{
+    top: 248px;
+    left: 76px;
+}
+
+#win_but_shuffle{
+    top: 248px;
+    left: 320px;
+}
+
+#game_over_title{
+    width: 480px;
+    margin-top: 18px;
+    margin-left: 8px;
+    
+    text-align: center;
+    font-size: 30px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+#game_over_final_score{
+    width: 480px;
+    
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+
+    font-family: 'walibi0615bold';
+}
+
+#game_over_but_exit{
+    top: 254px;
+    left: 200px;
+}
+
+#game_over_but_restart{
+    top: 230px;
+    left: 200px;
+}
+
+#game_over_but_shuffle{
+    top: 204px;
+    left: 200px;
+}
+
+.panel_button{
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #b7e0e5;
+    text-shadow: 2px 0 0 #062978, -2px 0 0 #062978, 0 2px 0 #062978, 0 -2px 0 #062978, 2px 2px #062978, -2px -2px 0 #062978, 2px -2px 0 #062978, -2px 2px 0 #062978;
+    font-family: 'walibi0615bold';
+}
+
+
+/***********************************************/
+
+/***************FONTS***************************/
+
+@font-face {
+    font-family: 'walibi0615bold';
+    src: url('./fonts/walibi-holland-webfont.eot');
+    src: url('./fonts/walibi-holland-webfont.svg#walibi0615bold') format('svg'),
+         url('./fonts/walibi-holland-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/walibi-holland-webfont.woff') format('woff'),
+         url('./fonts/walibi-holland-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}

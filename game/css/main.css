@@ -1,0 +1,409 @@
+.clear { clear: both; }
+/******************GENERIC CLASSES*******************/
+.ani_hack{
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+    
+    image-rendering: optimizeSpeed;
+    image-rendering:-o-crisp-edges;
+    image-rendering:-webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    
+}
+
+* {
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::selection { background: transparent;color:inherit; }
+::-moz-selection { background: transparent;color:inherit; }
+
+.text_class{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.button_class{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/**********************APP**************************/
+#main_game_container{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+
+    background-color: #000;
+}
+
+#preloader_text{
+    position: absolute;
+    
+    width:800px;
+    top:300px;
+    text-align:center;
+    color:white;
+    font-size: 24px;
+}
+
+#msg_box{
+    position: absolute; 
+    width: 800px;
+    height: 600px;
+    display : none;
+}
+
+.msg_box_text{
+    position: absolute; 
+}
+
+.msg_box_but{
+    position: absolute;
+    text-align: center;
+}
+
+#block_panel{
+    background-image:  url(../assets/block.png);
+    position: absolute; 
+    width: 800px;
+    height: 600px;
+    display: none;
+}
+
+/***********************************************/
+
+
+/*********************MENU*********************/
+
+#menu_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+}
+
+#menu_layout{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+
+    display: none;
+}
+
+
+.mahjong_layout{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    
+    background-repeat:no-repeat;
+    background-position:center; 
+    top : 375px;
+    cursor: pointer;
+}
+
+.mahjong_layout h1{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.mahjong_layout h2{
+    position: absolute;  
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mahjong_layout h3{
+    position: absolute;
+    
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -ms-transform: rotate(35deg); 
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.layout_preview{
+    position: absolute; 
+    width: 160px;
+    height: 120px;
+    top: 30px;
+    left: 10px;     
+}
+
+#mahjong_layout_0{
+    left : 100px;
+}
+
+#mahjong_layout_1{
+    left : 310px;  
+}
+
+#mahjong_layout_2{
+    left : 520px; 
+}
+
+.layout_lock{
+    position: absolute; 
+}
+
+.coin_text{
+    position: absolute; 
+    left : 34px;
+    top : 5px;
+}
+
+.arrow_button{
+    position: absolute; 
+    cursor: pointer;
+}
+
+
+
+/*************CREDITS***************/
+
+#credits_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    display : none;
+}
+
+#credits_text{
+    position: absolute;
+}
+
+#credits_button_exit{
+    width: 450px;
+    top: 530px;
+    left: 344px;
+    position: absolute;
+}
+
+/**************HELP****************/
+
+#help_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    display : none;
+}
+
+#help_tile_container{
+    position: absolute; 
+    width: 400px;
+    height: 300px;
+    top: 32px;
+    left: 408px;
+}
+
+#help_text1{
+    width: 400px;
+    height: 260px;
+    top: 32px;
+    left: 0px;
+    position: absolute;
+}
+
+#help_text2{
+    width: 800px;
+    height: 176px;
+    top: 340px;
+    left: 0px;
+    position: absolute;
+}
+
+#help_button_exit{
+    width: 360px;
+    top: 540px;
+    left: 430px;
+    position: absolute;
+}
+
+/******************GAME*************************/
+
+.mahjong_tile{
+    width: 61px;
+    height: 78px;
+    position: absolute;
+}
+
+.selection_tile{
+   width: 44px;
+   height: 60px;
+   left :0px;
+   top : 0px;
+   position: absolute; 
+   display:none;
+}
+
+#match_game_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+
+    background-color: #000;
+
+    display: none;
+}
+
+#board_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+}
+
+/******************INTERFACE**********************/
+
+#interface_container{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+}
+
+.menu_button{
+    position: absolute;
+    text-align: right;
+}
+
+
+
+.game_button{
+    position: absolute; 
+    text-align: left;
+}
+
+.game_text{
+
+}
+
+#button_game_hint{
+    top: 5px;
+    left: 5px; 
+}
+
+#button_game_restart{
+    top: 26px;
+    left: 5px;
+}
+
+#button_game_shuffle{
+    top: 48px;
+    left: 5px;
+}
+
+#tile_container{
+    position: absolute; 
+}
+
+.bonus_score_anim{
+    top: -30px;
+    left: 0px; 
+    position: absolute; 
+}
+
+#text_score{
+    position: absolute; 
+    top: 2px;
+    left: 160px; 
+}
+
+#bonus_time{
+    position: absolute; 
+    top: 2px;
+    left: 290px; 
+}
+
+#hint_text{
+    position: absolute; 
+    top: 2px;
+    left: 412px; 
+}
+
+#button_exit{
+   position: absolute; 
+   cursor: pointer; 
+}
+
+.panel_button{
+    position: absolute;
+    text-align: center;
+    width: 110px;
+}
+
+#win_coin_img{
+    position: absolute;
+    background-image:  url(../assets/coin.png);
+    width: 27px;
+    height: 27px;
+    top: 170px;
+    left: 236px; 
+}
+
+#game_over_coin_img{
+    position: absolute;
+    background-image:  url(../assets/coin.png);
+    width: 27px;
+    height: 27px;
+    top: 170px;
+    left: 236px; 
+}
+
+#win_panel{
+    position: absolute; 
+    width: 500px;
+    height: 290px;
+    top: -350px;
+    left: 149px;
+    display: none;
+}
+
+#game_over_panel{
+    position: absolute; 
+    width: 500px;
+    height: 290px;
+    top: -350px;
+    left: 149px;
+    display: none;
+}

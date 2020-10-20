@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+#section6 {
+    overflow: hidden;
+}
+#backblack{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.border2{
+    width: 188px;
+    height: 188px;
+    margin: auto;
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+}
+#section5-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+#section5-background img{
+    z-index: -1000;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    transform: scale(1.2);
+    transition: 3s ease;
+}
+#about{
+    width: 1106px;
+    height: 360px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#about img{
+    height: 185px;
+    width: 185px;
+    position: absolute;
+    transform: translate(-50%);
+    
+}
+.picavatar{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top:4px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin:auto;
+    overflow: hidden;
+}
+#border-top-box{
+    opacity: 0.8;
+    width: 260px;
+    margin: auto;
+    height: 3px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#about h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Calibri',sans-serif;
+    padding-bottom: 10px;
+}
+.aboutbox{
+    position: relative;
+    width: 366px;
+    height: 350px;
+    display: inline-block;
+}
+#about p{
+    color:darkorange;
+    font-family: 'Calibri',sans-serif;
+}
+#about i {
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 1;
+  transition: 0.35s ease;
+  opacity: 0.6;
+}
+
+#about i:hover {
+ color:aqua;
+}
